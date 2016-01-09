@@ -19,11 +19,11 @@
 .grid {
 	margin:auto;
 	padding:none;
-	width:1206px;
+	width:1006px;
 }
 
 .image-overlay-content {
-  width:400px;
+  width:500px;
   height: 100%;
   position: absolute;
   overflow: hidden;
@@ -32,7 +32,7 @@
 }
 
 .js-masonry {
-	columnWidth:400;
+	columnWidth:500;
 	isFitWidth:true;
 	itemSelector:'.post';
 }
@@ -97,13 +97,13 @@
 	float:left;
 	overflow:hidden;
 	position:absolute;
-	width:400px;
+	width:500px;
 	padding:0px 0px 3px 0px;
 }
 
 .post img {
 	padding:none;
-	width:400px;
+	width:500px;
 }
 
 .wrap {
