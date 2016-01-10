@@ -69,9 +69,17 @@ body {
 	font-size:9.25;
 	}
 	
-@media only screen and (min-width: 0px) and (max-width:600px) {
+@media screen and (min-width: 0px) and (max-width:600px) {
 	div.post {
 		width:100%;
+		margin:0px 0px 10px 0px;
+	}
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width:600px) {
+	div.post {
+		width:100%;
+		margin:0px 0px 10px 0px;
 	}
 }
 	
