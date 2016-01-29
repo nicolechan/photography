@@ -7,6 +7,14 @@
 	color:#029899;
 	text-decoration:none;
 	}
+	
+#aboutcontainer {
+	width:900px;
+	font-family:Quicksand,sans-serif;
+	margin:auto;
+	font-size:14pt;
+	text-align:center;
+}
 
 #ad {
 	width:0px;
@@ -155,6 +163,11 @@ body {
 .post img {
 	padding:none;
 	width:100%;
+}
+
+#selfies img {
+	border-radius:10%;
+	margin:0px 0px 15px 0px;
 }
 
 #socialmedia {
