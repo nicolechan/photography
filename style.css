@@ -118,7 +118,7 @@ body {
 	
 @media screen and (min-width: 0px) and (max-width:600px) {
 /* SKINNY COMPUTER */
-	.caption {
+.caption {
 		border:none;
 		padding:0px 10px 10px 10px;
 		width:100%;
@@ -172,7 +172,8 @@ body {
 		padding:0px 10px 10px 10px;
 		width:100%;
 		float:right;
-		font-size:16pt;
+		font-size:36pt;
+		line-height:36pt;
 	}
 	
 	.caption-padding {
@@ -182,7 +183,8 @@ body {
 	div.date {
 		padding:0px 0px 10px 0px;
 		font-weight:bold;
-		line-height:16pt;
+		font-size:36pt;
+		line-height:36pt;
 	}
 	
 	div#header {
@@ -190,17 +192,14 @@ body {
 	}
 	
 	div.location {
-		font-size:14pt;
+		font-size:30pt;
+		line-height:30pt;
 		font-weight:initial;
 	}
 	
 	div.post {
 		width:100%;
 		margin:0px 0px 20px 0px;
-		padding:0px 0px 5px 0px;
-		border-style:solid;
-		border-width:0px 0px 2px 0px;
-		border-color:#BFBFBF;
 	}
 	
 	.image-overlay-content {
