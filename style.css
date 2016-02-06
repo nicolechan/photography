@@ -32,7 +32,9 @@ body {
 
 .caption {
 	line-height:30px;
-	padding:10px;
+	padding:20px 10px 20px 10px;
+	border-style:solid;
+	border-width:1px 0px 1px 0px;
 }
 
 .caption-padding {
@@ -97,6 +99,11 @@ body {
 	isInitLayout:false;
 }
 
+.location {
+	margin-bottom:15px;
+	font-weight:bold;
+}
+
 #me {
 	width:250px;
 	float:left;
@@ -110,16 +117,153 @@ body {
 	}
 	
 @media screen and (min-width: 0px) and (max-width:600px) {
+/* SKINNY COMPUTER */
+	.caption {
+		border:none;
+		padding:0px 10px 10px 10px;
+		width:100%;
+		float:right;
+		font-size:16pt;
+	}
+	
+	.caption-padding {
+		color:#000;
+	}
+	
+	div.date {
+		padding:0px 0px 10px 0px;
+		font-weight:bold;
+		line-height:16pt;
+	}
+	
+	div#header {
+		position:absolute;
+	}
+	
+	div.location {
+		font-size:14pt;
+		font-weight:initial;
+	}
+	
 	div.post {
 		width:100%;
-		margin:0px 0px 10px 0px;
+		margin:0px 0px 20px 0px;
+	}
+	
+	.image-overlay-content {
+		position:static;
+	}
+	
+	.overlay-fade-in .image-overlay-content {
+  		opacity: 1 !important;
+  		background-color: rgba(255, 255, 255, 1.0) !important;
+  		transition: none 0.4s ease-in-out; 
+	}
+	
+	.overlay-fade-in:hover img {
+  		transform:none !important; 
 	}
 }
 
 @media screen and (min-device-width: 0px) and (max-device-width:600px) {
+/* SKINNY DEVICE */
+	.caption {
+		border:none;
+		padding:0px 10px 10px 10px;
+		width:100%;
+		float:right;
+		font-size:16pt;
+	}
+	
+	.caption-padding {
+		color:#000;
+	}
+	
+	div.date {
+		padding:0px 0px 10px 0px;
+		font-weight:bold;
+		line-height:16pt;
+	}
+	
+	div#header {
+		position:absolute;
+	}
+	
+	div.location {
+		font-size:14pt;
+		font-weight:initial;
+	}
+	
 	div.post {
 		width:100%;
 		margin:0px 0px 20px 0px;
+		padding:0px 0px 5px 0px;
+		border-style:solid;
+		border-width:0px 0px 2px 0px;
+		border-color:#BFBFBF;
+	}
+	
+	.image-overlay-content {
+		position:static;
+	}
+	
+	.overlay-fade-in .image-overlay-content {
+  		opacity: 1 !important;
+  		background-color: rgba(255, 255, 255, 1.0) !important;
+  		transition: none 0.4s ease-in-out; 
+	}
+	
+	.overlay-fade-in:hover img {
+  		transform:none !important; 
+	}
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width:1024px) {
+/* WIDE DEVICE */
+	.caption {
+		border:none;
+		padding:0px 10px 10px 10px;
+		width:100%;
+		float:right;
+		font-size:14pt;
+	}
+	
+	.caption-padding {
+		color:#000;
+	}
+	
+	div.date {
+		padding:0px 0px 10px 0px;
+		font-weight:bold;
+		line-height:14pt;
+	}
+	
+	div#header {
+		position:absolute;
+	}
+	
+	div.location {
+		font-size:12pt;
+		font-weight:initial;
+	}
+	
+	div.post {
+		width:50%;
+		margin:0px 0px 15px 0px;
+	}
+	
+	.image-overlay-content {
+		position:static;
+	}
+	
+	.overlay-fade-in .image-overlay-content {
+  		opacity: 1 !important;
+  		background-color: rgba(255, 255, 255, 1.0) !important;
+  		transition: none 0.4s ease-in-out; 
+	}
+	
+	.overlay-fade-in:hover img {
+  		transform:none !important; 
 	}
 }
 	
