@@ -130,6 +130,10 @@ body {
 		color:#000;
 	}
 	
+	div#about {
+		width:900px;
+	}
+	
 	div.date {
 		padding:0px 0px 10px 0px;
 		font-weight:bold;
