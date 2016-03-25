@@ -204,6 +204,10 @@ body {
 		font-weight:initial;
 	}
 	
+	div#me {
+		display:none;
+	}
+	
 	div.post {
 		width:100%;
 		margin:0px 0px 20px 0px;
