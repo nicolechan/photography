@@ -190,9 +190,13 @@ img.socialicon {
 		width:100%;
 	}
 	
+	#aboutcontainer {
+		padding:75px 0px 0px 0px;
+	}
+	
 	#aboutsidebar {
 		width:100%;
-		font-size:20pt;
+		font-size:60pt;
 	}
 	
 	.caption {
@@ -251,21 +255,8 @@ img.socialicon {
   		transform:none !important; 
 	}
 	
-	.social {
-		line-height:100px;
-		height:100px;
-		margin:0px 5px 30px 0px;
-	}
-
 	#socialmedia {
-		width:100%;
-		padding:none;
-		margin:0px 0px 30px 0px;
-	}
-
-	#socialmedia img {
-		height:50px;
-		width:50px;
+		display:none;
 	}
 }
 
