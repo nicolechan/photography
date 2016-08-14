@@ -1,6 +1,7 @@
 #about {
 	width:650px;
 	float:right;
+	padding:50px 0px 0px 0px;
 	}
 	
 #about a {
@@ -15,6 +16,18 @@
 	font-size:14pt;
 	text-align:center;
 }
+
+#aboutsidebar {
+	width:250px;
+	float:left;
+	padding:50px 0px 0px 0px;
+	}
+	
+#aboutsidebar img {
+	width:220px;
+	padding:0px 15px 0px 15px;
+	pointer-events:none;
+	}
 
 #ad {
 	width:0px;
@@ -91,6 +104,15 @@ body {
   left: 0; 
 }
 
+img#profilepic {
+	width:220px;
+	padding:0px 15px 0px 15px;
+	pointer-events:none;
+	border-radius:50%;
+	-webkit-border-radius:50%;
+	-moz-border-radius:50%;
+}
+
 .js-masonry {
 	columnWidth:100%;
 	isFitWidth:true;
@@ -103,18 +125,6 @@ body {
 	margin-bottom:15px;
 	font-weight:bold;
 }
-
-#me {
-	width:250px;
-	float:left;
-	padding:30px 0px 0px 0px;
-	}
-	
-#me img {
-	width:220px;
-	padding:0px 15px 0px 15px;
-	pointer-events:none;
-	}
 	
 @media screen and (min-width: 0px) and (max-width:600px) {
 /* SKINNY COMPUTER */
@@ -206,10 +216,6 @@ body {
 		font-size:40pt;
 		line-height:45pt;
 		font-weight:initial;
-	}
-	
-	div#me {
-		display:none;
 	}
 	
 	div.post {
@@ -323,20 +329,15 @@ body {
 	width:100%;
 }
 
-#selfies img {
-	border-radius:10%;
-	margin:0px 0px 15px 0px;
-}
-
 #socialmedia {
-	width:650px;
+	width:250px;
 	padding:none;
 	margin:0px 0px 15px 0px;
 	}
 
 #socialmedia img {
 	height:50px;
-	padding:5px 7.5px 5px 7.5px;
+	width:50px;
 	}
 
 .wrap {
