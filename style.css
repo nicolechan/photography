@@ -185,6 +185,10 @@ img.socialicon {
 
 @media screen and (min-device-width: 0px) and (max-device-width:600px) {
 /* SKINNY DEVICE */
+	#about {
+		font-size:40pt;
+	}
+	
 	.caption {
 		border:none;
 		padding:0px 10px 10px 10px;
