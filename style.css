@@ -113,6 +113,10 @@ img#profilepic {
 	-moz-border-radius:50%;
 }
 
+img.socialicon {
+	float:left;
+}
+
 .js-masonry {
 	columnWidth:100%;
 	isFitWidth:true;
@@ -329,6 +333,12 @@ img#profilepic {
 	width:100%;
 }
 
+.social {
+	line-height:50px;
+	height:50px;
+	margin:0px 5px 15px 0px;
+}
+
 #socialmedia {
 	width:250px;
 	padding:none;
@@ -339,6 +349,11 @@ img#profilepic {
 	height:50px;
 	width:50px;
 	}
+	
+.socialtitle {
+	float:left;
+	color:#000;
+}
 
 .wrap {
 	overflow:hidden;
