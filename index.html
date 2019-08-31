@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Photography</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <!-- masonry --> <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.js"></script>
+    <!-- imagesloaded --> <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.0.0/imagesloaded.pkgd.js"></script>
+	<!-- isotope filtering --> <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    
+    <script type="text/javascript">
+		docReady( function() {
+	
+	  var grid = document.querySelector('.grid');
+	  var msnry;
+	
+	  imagesLoaded( grid, function() {
+		// init Isotope after all images have loaded
+		msnry = new Masonry( grid, {
+		  itemSelector: '.post',
+		  gutter: 30,
+		  columnWidth: 500,
+		  horizontalOrder: false,
+		});
+	  });
+	  
+	  
+	});
+	
+	</script>
+	
+	
+    
+</head>
+
+<body>
+<div class="container">
+
+	<div class="sidebar">
+		<div class="name">NICOLE<br>CHAN</div>
+		<div class="sidebaritem"><a href="">home</a><br /><a href="">all photos</a></div>
+		<div class="sidebaritem">about me</div>
+		<div id="about">
+			<p>Welcome! I'm Nicole, and this is my photo blog. I'm currently a senior at Santa Clara University with a passion for photography, travel, and adventure!</p><!-- <p>When not with my camera, I also enjoy swimming, spending time with my friends and family, and taking long naps.</p> -->
+		</div>
+		<div class="footer">&copy; 2019</div>
+	</div>
+	
+	<div class="grid">
+	
+		<div class="post">
+			<img src="https://i.postimg.cc/tRNgXSd7/DSC-9592-edit.jpg">
+			<div class="caption"><div class="left">shipwreck</div><div class="right">21 november 2018 // great barrier reef, australia</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/2ygw0DmC/DSC_4249_edit.jpg">
+			<div class="caption"><div class="left">rooftop views</div><div class="right">20 july 2017 // trinidad, cuba</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/024Q8bFk/DSC_1949_edit.jpg">
+			<div class="caption"><div class="left">palm</div><div class="right">28 january 2017 // santa clara, california</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/bN5xJnPt/DSC_1535_edit.jpg">
+			<div class="caption"><div class="left">light</div><div class="right">3 december 2016 // san jose, california</div></div>
+		</div>
+	
+		<div class="post">
+			<img src="https://i.postimg.cc/QxnyNjbr/DSC-0631-edit.jpg">
+			<div class="caption"><div class="left">hannah</div><div class="right">13 august 2016 // gold river, california</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/4NFKDF2M/DSC-0162-edit.jpg">
+			<div class="caption"><div class="left">david</div><div class="right">10 july 2016 // gold river, california</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/5NRTVhVr/DSC_7509_fix.jpg">
+			<div class="caption"><div class="left">mia</div><div class="right">16 april 2016 // gold river, california</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/ZKQSMcPc/DSC_5352.jpg">
+			<div class="caption"><div class="left">firenze</div><div class="right">4 august 2015 // florence, italy</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/VLhzKBgF/DSC_5015.jpg">
+			<div class="caption"><div class="left">tiger's nest</div><div class="right">7 june 2015 // paro, bhutan</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/zXcxtxMj/DSC_3111.jpg">
+			<div class="caption"><div class="left">grinding corn</div><div class="right">30 july 2014 // yunnan, china</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/28XyJWCm/DSC_2174.jpg">
+			<div class="caption"><div class="left">palm</div><div class="right">18 february 2014 // wailea, maui</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/9FN5njrp/DSC_1514b.jpg">
+			<div class="caption"><div class="left">mom</div><div class="right">5 august 2013 // kusadasi, turkey</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/15jM2zMt/DSC-0693.jpg">
+			<div class="caption"><div class="left">bridge</div><div class="right">22 june 2013 // iguaz&#250;, argentina</div></div>
+		</div>
+		
+		<div class="post">
+			<img src="https://i.postimg.cc/HsPqSjm6/DSC_9295.jpg">
+			<div class="caption"><div class="left">hotel pool</div><div class="right">19 june 2012 // chiang mai, thailand</div></div>
+		</div>
+        
+        <div class="post" id="linktoeverything">
+        	<a href="">see all photos</a>
+       	</div>
+	
+	</div>
+  
+  
+</div>
+
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Staatliches" rel="stylesheet">
+
+</body>
+
+
+</html>
