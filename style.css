@@ -1,0 +1,148 @@
+.container {
+	width:1300px;
+	margin:auto;
+	padding:20px 0px 0px 30px;
+	font-family:'Libre Baskerville',serif;
+}
+
+.grid {
+	width:1030px;
+	float:right;
+}
+
+.post {
+	width:500px;
+	float:left;
+	margin:0px 0px 30px 0px;
+}
+
+.post:hover .caption {
+	display:block;
+	position:absolute;
+	opacity:.8;
+}
+
+.post .caption {
+	font-size:10pt;
+	background-color:#FFF;
+	padding:15px;
+	width:470px;
+	position:absolute;
+	opacity:0;
+	bottom:0;
+	left:0;
+	z-index:1000;
+	-webkit-transition: opacity 0.4s ease-in-out; 
+	transition: opacity 0.4s ease-in-out; 
+	-moz-transition: opacity 0.4s ease-in-out; 
+}
+
+.post .caption .left {
+	float:left;
+}
+
+.post .caption .right {
+	float:right;
+}
+
+.post img {
+	width:500px;
+}
+
+.post#linktoeverything a {
+	text-decoration:none;
+	background-color:#E8E8E8;
+	color:#000;
+	padding:15px 25px 15px 25px;
+}
+
+.post#linktoeverything a:hover {
+	background-color:#00BDA4;
+	color:#fff;
+}
+
+.sidebar {
+	width:220px;
+	float:left;
+	position:fixed;
+	margin:none;
+	text-align:center;
+	padding:none;
+	font-size:14pt;
+	line-height:25pt;
+}
+
+.sidebar a {
+	color:#000;
+	text-decoration:none;
+}
+
+.sidebar a:hover {
+	color:#00BDA4;
+	font-weight:bold;
+}
+
+.sidebar #about {
+	font-size:10pt;
+	line-height:16pt;
+	margin:-10px 0px 30px 0px;
+}
+
+.sidebar .currentpage {
+	color:#00BDA4;
+	font-weight:bold;
+}
+
+.sidebar .footer {
+	text-align:center;
+	font-size:10pt;
+	margin-top:50px;
+}
+
+.sidebar .name {
+	padding:15px;
+	margin:none;
+	border: 10px solid black;
+	letter-spacing:5px;
+	text-align:center;
+	font-weight:bold;
+	font-size:35pt;
+	line-height:65px;
+	font-family:'Staatliches',sans-serif;
+}
+
+.sidebar .name:hover {
+	color:#00BDA4;
+	border:10px solid #00BDA4;
+}
+
+.sidebar div#world {
+	font-size:10pt;
+	margin:0;
+	width:220px;
+	line-height:20pt;
+}
+
+.sidebar .sidebaritem {
+	margin:20px 0px 20px 0px;
+}
+
+.sidebar ul.world {
+	list-style:none;
+	padding:0;
+	margin:10px 0px 10px 0px;
+	text-align:center;
+	columns: 2;
+	-webkit-columns: 2;
+	-moz-columns: 2;
+}
+
+.sidebar ul.world li a {
+	color:#000;
+	text-decoration:none;
+}
+
+.sidebar ul.world li a:hover {
+	color:#00BDA4;
+	font-weight:bold;
+}
