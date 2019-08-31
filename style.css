@@ -185,6 +185,11 @@
 		width:1000px;
 	}
 	
+	.post#linktoeverything a {
+		padding:30px 50px 30px 50px;
+		font-size:50pt;
+	}
+	
 	.sidebar {
 		display:none;
 	}
