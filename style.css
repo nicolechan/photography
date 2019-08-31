@@ -192,10 +192,10 @@
 	}
 
 	.post .caption {
-		font-size:10pt;
+		font-size:40pt;
 		background-color:#E8E8E8;
-		padding:15px 15px 30px 15px;
-		width:470px;
+		padding:30px 30px 60px 30px;
+		width:940px;
 		position:static;
 		opacity:1;
 		-webkit-transition: none; 
