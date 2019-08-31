@@ -185,6 +185,24 @@
 		width:1000px;
 	}
 	
+	.post:hover .caption {
+		display:block;
+		position:static;
+		opacity:1;
+	}
+
+	.post .caption {
+		font-size:10pt;
+		background-color:#E8E8E8;
+		padding:15px 15px 30px 15px;
+		width:470px;
+		position:static;
+		opacity:1;
+		-webkit-transition: none; 
+		transition: none; 
+		-moz-transition: none; 
+	}
+	
 	.post#linktoeverything a {
 		padding:30px 50px 30px 50px;
 		font-size:50pt;
