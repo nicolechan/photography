@@ -146,3 +146,47 @@
 	color:#00BDA4;
 	font-weight:bold;
 }
+
+
+@media screen and (min-width: 0px) and (max-width:1300px) {
+/* SKINNY COMPUTER */
+	.container {
+		width:750px;
+	}
+	
+	.grid {
+		width:500px;
+		float:right;
+	}
+	
+	.post {
+		width:500px;
+		float:left;
+		margin:0px 0px 30px 0px;
+	}
+}
+
+@media screen and (min-device-width: 0px) and (max-device-width:600px) {
+/* SKINNY DEVICE */
+	.container {
+		width:500px;
+	}
+	
+	.grid {
+		width:500px;
+	}
+	
+	.post {
+		width:500px;
+		margin:0px 0px 30px 0px;
+	}
+	
+	.sidebar {
+		display:none;
+	}
+}
+
+@media screen and (min-device-width: 600px) and (max-device-width:1024px) {
+/* WIDE DEVICE */
+
+}
